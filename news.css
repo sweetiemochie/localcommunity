@@ -1,0 +1,181 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  top: 20%;
+}
+
+.news {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #50623a;
+}
+
+nav {
+  background-color: #99bc85;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 200%;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+  right: 3%;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: #99bc85;
+  color: #50623a;
+}
+
+nav .dropdown {
+  position: relative;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #99bc85;
+  min-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .dropdown-content li {
+  min-width: 100%;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}-content {
+display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+background-color: #50623a;
+color: #99bc85;
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+.news-card {
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-link {
+  text-decoration: none;
+  color: #50623a;
+}
+
+.news-title {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: #99bc85;
+}
+
+.news-text {
+  font-size: 16px;
+  color: #50623a;
+  margin: 10px 0;
+  text-align: justify;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.click {
+text-align: center;
+}
+
+.news-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.column p {
+  font-size: 18px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,168 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family:  "Poppins", sans-serif;   
+}
+
+nav {
+  background-color: #99bc85;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 200%;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+  right: 3%;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: #99bc85;
+  color: #50623a;
+}
+
+nav .dropdown {
+  position: relative;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #99bc85;
+  min-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .dropdown-content li {
+  min-width: 100%;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}-content {
+display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+background-color: #50623a;
+color: #99bc85;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.content {
+  background-color: #ECFFDC;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.title {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: #50623a;
+    margin-top: 10%;
+}
+
+.history-item {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+	background-color: #99bc85;
+	padding: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+}
+
+.text {
+	flex: 1;
+	margin-left: 1rem;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #50623a;
+	margin-bottom: 0.5rem;
+}
+
+.description {
+	font-size: 1rem;
+	color: #50623a;
+	line-height: 1.5;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,164 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #777E5C;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #99bc85;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 200%;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+  right: 3%;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: #99bc85;
+  color: #50623a;
+}
+
+nav .dropdown {
+  position: relative;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #99bc85;
+  min-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .dropdown-content li {
+  min-width: 100%;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}-content {
+display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+background-color: #50623a;
+color: #99bc85;
+}
+
+* {
+box-sizing: border-box;
+}
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.deco-title {
+  margin: 0; /* Remove default margin for h2 */
+  padding-top: 130px;
+  text-align: center;
+  font-size: 40px; /* Adjust font size for the title */
+}
+
+.deco-desc {
+  margin: 0; /* Remove default margin for h2 */
+  padding-top: 10px;
+  font-weight: normal;
+  text-align: center;
+  font-size: 17px;
+  line-height: 170%;
+}
+
+/* Style for each box */
+.interactive-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 100%; /* Adjust the width as needed */
+  border: 20px solid #d1d8bd; /* Add a border for better visibility */
+
+}
+
+.interactive-box img {
+  width: 500px; /* Adjust the width of the images as needed */
+  height: 500px; /* Adjust the height of the images as needed */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.interactive-box img:hover {
+  transform: scale(1.2); /* Add a scaling effect on hover */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
